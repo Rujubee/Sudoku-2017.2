@@ -27,29 +27,6 @@ void desenha_grade(int grade[N][N]) {
   }
 }
 
-
-
-
-//------------------
-//-------------------
-
-/* void marca_tempo(){   //FUNÇÃO PARA MARCAR O TEMPO JOGADO
-	float tempo;
-	int i, j;
-	time_t t_inicio, t_final;
-		t_inicio = time(NULL);
-			for(i = 0; i < 50000; i++){
-				for(j = 0; j < 50000; j++);
-			}
-		t_final = time(NULL);
-			tempo = difftime(t_final, t_inicio);
-				printf("Tempo marcado: %f\n", tempo);
-
-}  */
-
-//--------------------
-//--------------------
-
 int verificar_linha(int grade[N][N], int linha, int coluna, int numero){
     int j;
     for (j=0; j<9; j++){
@@ -264,7 +241,25 @@ void chamar_grade_aleat(){
 	menu_2 (solucao, grade, grade2);
 }
 
+//------------------
+//-------------------
 
+/* void marca_tempo(){   //FUNÇÃO PARA MARCAR O TEMPO JOGADO
+	float tempo;
+	int i, j;
+	time_t t_inicio, t_final;
+		t_inicio = time(NULL);
+			for(i = 0; i < 50000; i++){
+				for(j = 0; j < 50000; j++);
+			}
+		t_final = time(NULL);
+			tempo = difftime(t_final, t_inicio);
+				printf("Tempo marcado: %f\n", tempo);
+
+}  */
+
+//--------------------
+//--------------------
 
 
 // ----------------------
